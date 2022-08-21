@@ -13,7 +13,7 @@ const Home2 = () => {
   const [games, setGames] = useState([{amount: 100, walletAdress: '2123', result: true}])
   const fetchItems = async () => {
     let data;
-    const gamess = await fetch('http://localhost:4000/').then(result => {
+    const gamess = await fetch('https://casinoghostbackend.herokuapp.com/').then(result => {
       data = result.clone().json()
       return result
     })

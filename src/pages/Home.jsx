@@ -31,7 +31,7 @@ const Home = () => {
   ];
   async function handleSubmit(e) {
     e.preventDefault();
-    await fetch("http://localhost:4000/flip",
+    await fetch("https://casinoghostbackend.herokuapp.com/flip",
         {
           headers: {
             'Accept': 'application/json',
@@ -108,7 +108,7 @@ const Home = () => {
 
 
         <div className="d-flex justify-content-center mt-5">
-          <form action="http://localhost:4000/flip" method="POST" onSubmit={handleSubmit} onClick={() => {
+          <form action="https://casinoghostbackend.herokuapp.com/flip" method="POST" onSubmit={handleSubmit} onClick={() => {
             if (localStorage.getItem('wallet') !== undefined){
               setResult(Math.floor(Math.random() * 2));
               setPopup(true)
