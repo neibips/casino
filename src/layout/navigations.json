@@ -1,0 +1,20 @@
+{
+  "navigations": [
+    {
+      "name": "HOME",
+      "url": "/"
+    },
+    {
+      "name": "FLIP",
+      "url": "/flip"
+    },
+    {
+      "name": "CRASH",
+      "url": "/crash"
+    },
+    {
+      "name": "STATS",
+      "url": "/users"
+    }
+  ]
+}
