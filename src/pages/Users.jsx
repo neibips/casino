@@ -5,7 +5,12 @@ import Container from "../layout/Container";
 
 const Users = () => {
   return (
-    <Layout>
+      <Layout>
+        <Container parentClass="body-coming-soon">
+          <h1 className="text-center py-5 my-5 display-4">Coming Soon</h1>
+        </Container>
+      </Layout>
+    /*<Layout>
       <Container parentClass="body-users">
         <div className="form-select-container mt-4">
           <select
@@ -65,7 +70,7 @@ const Users = () => {
         <br />
         <br />
       </Container>
-    </Layout>
+    </Layout>*/
   );
 };
 

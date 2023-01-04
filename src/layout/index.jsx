@@ -3,7 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Sidebar from "./Sidebar";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, variable, setVariable}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const OnClick = () => {
@@ -11,11 +11,11 @@ const Layout = ({ children }) => {
   };
   return (
     <>
-      <Header OnClick={OnClick} isOpen={isOpen} />
+      <Header OnClick={OnClick} isOpen={isOpen} variable={variable} setVariable={setVariable}/>
       <Sidebar OnClick={OnClick} isOpen={isOpen} />
-      <div className="header_bottom"></div>
+      <div className="header_bottom"/>
       {children}
-      <Footer />
+      {/*<Footer />*/}
     </>
   );
 };

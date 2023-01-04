@@ -10,35 +10,35 @@ const Footer = () => {
     <Container parentClass="footer">
       <ul className="d-flex justify-content-center list-unstyled gap-4 gap-md-5 flex-wrap">
         <a
-          href="https://www.facebook.com/"
+          href="/soon"
           target="blank"
           className="text-decoration-none text-white pointer"
         >
           <li>ABOUT</li>
         </a>
         <a
-          href="https://www.facebook.com/"
+          href="/soon"
           target="blank"
           className="text-decoration-none text-white pointer"
         >
           <li>FAQ</li>
         </a>
         <a
-          href="https://www.facebook.com/"
+          href="/soon"
           target="blank"
           className="text-decoration-none text-white pointer"
         >
           <li>HOW TO PLAY</li>
         </a>
         <a
-          href="https://www.facebook.com/"
+          href="/soon"
           target="blank"
           className="text-decoration-none text-white pointer"
         >
           <li>FLIP RESPONSIBLY</li>
         </a>
         <a
-          href="https://www.facebook.com/"
+          href="/soon"
           target="blank"
           className="text-decoration-none text-white pointer"
         >
@@ -48,24 +48,24 @@ const Footer = () => {
 
       <ul className="d-flex d-md-none mt-5 justify-content-center list-unstyled gap-2">
         <li>
-          <a href="https://magic-eden-new-today-nft-jp.com/official/?userID=7" target="blank">
+          <a href="https://magiceden.com" target="blank">
             <img src={m} alt="" />
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/login" target="blank">
+          <a href="twitter.com/casinoghost_" target="blank">
             <img src={t} alt="" />
           </a>
         </li>
         <li>
-          <a href="https://discord.com/" target="blank">
+          <a href="discord.gg/casinog" target="blank">
             <img src={d} alt="" />
           </a>
         </li>
       </ul>
 
       <div className="d-flex justify-content-between align-items-center mt-5 w-100">
-        <p className="text-white mb-0">Solana Network: 1866 TPS</p>
+        <p className="text-white mb-0"></p>
         <ul className="d-none d-md-flex justify-content-center list-unstyled gap-2">
           <li>
             <img src={m} alt="" />

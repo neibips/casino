@@ -5,16 +5,12 @@
       "url": "/"
     },
     {
-      "name": "FLIP",
-      "url": "/flip"
-    },
-    {
       "name": "CRASH",
       "url": "/crash"
     },
     {
-      "name": "STATS",
-      "url": "/users"
+      "name": "STAT",
+      "url": "/soon"
     }
   ]
 }

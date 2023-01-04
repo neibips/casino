@@ -7,12 +7,24 @@
   font-family: ChakraPetch;
   src: url("../assets/font/chakra-petch-cufonfonts/ChakraPetch-Medium.ttf");
 }
+@font-face {
+  font-family: "Code Next Bold";
+  src: url("../assets/code.ttf");
+}
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../assets/font/gotham.ttf");
+}
+@font-face {
+  font-family: "Gotham Pro Regular";
+  src: url("../assets/gotham_regular.ttf")
+}
 
 * {
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
-  font-family: Exo2;
+  font-family: "Gotham Pro Regular", serif;
 }
 
 // VARIABLES START
@@ -30,7 +42,7 @@ html {
   font-size: 100%;
   overflow-x: hidden;
   scroll-behavior: auto !important;
-  background: #efedff;
+  background: rgba(33, 24, 51, 1);
 
   &::-webkit-scrollbar {
     width: 10px;
@@ -77,7 +89,7 @@ html {
 }
 
 .ChakraPetch {
-  font-family: ChakraPetch;
+  font-family: ChakraPetch, serif;
 }
 
 input::-webkit-outer-spin-button,
@@ -96,7 +108,7 @@ input[type="number"] {
 }
 
 body {
-  background: #efedff;
+  background: rgba(33, 24, 51, 1);
 }
 
 .active_btn {
@@ -155,12 +167,12 @@ body {
 }
 
 .doubled_btn {
-  background: #d4ff8e;
+  background: #32106b;
   border-radius: 5px;
 }
 
 .rugged_btn {
-  background: #ffc8bc;
+  background: #9b3016;
   border-radius: 5px;
 }
 
@@ -267,6 +279,9 @@ body {
 .color3 {
   color: $color3;
 }
+.colorMain {
+  color: whitesmoke;
+}
 
 .page_container {
   max-width: 1200px;
@@ -284,7 +299,7 @@ body {
   left: 0%;
   top: 0%;
   width: 100%;
-  background: linear-gradient(89.97deg, #4e44ce -0.03%, #7101ff 99.97%);
+  background: rgba(33, 24, 51, 1);
   backdrop-filter: blur(54px);
   max-height: 110px;
   z-index: 100;
@@ -644,7 +659,7 @@ body {
 
   .row {
     * {
-      color: #c5c5c5;
+      color: #ffffff;
     }
   }
 
@@ -899,13 +914,13 @@ body {
     }
 
     .p-line {
-      border: 0.753958px solid rgba(0, 0, 0, 0.4);
+      border-radius: 5px;
       padding: 0.3rem 2rem 0rem;
       height: 35px;
     }
 
     .g-line {
-      background: #d4ff8e;
+      background: #2bd2ea;
     }
 
     .r-line {
@@ -1066,3 +1081,126 @@ body {
   }
 }
 // MEDIA END
+
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#form { background: rgba(0, 0, 0, 0.15);
+  padding: 0.25rem;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  height: 3rem;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+}
+#input { border: none; padding: 0 1rem; flex-grow: 1; border-radius: 2rem; margin: 0.25rem; }
+#input:focus { outline: none; }
+#form > button { background: #333; border: none; padding: 0 1rem; margin: 0.25rem; border-radius: 3px; outline: none; color: #fff; }
+
+.bigName{
+  font-family: "Code Next Bold", serif;
+  color: white;
+}
+
+
+/* Rectangle 1 */
+
+.placeForBalance{
+  width: 170px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  background: rgba(124, 89, 200, 0.15);
+  border-radius: 10px;
+}
+
+.balanceText{
+  font-family: 'Gotham Pro', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin: 0;
+
+}
+
+.coinText{
+  font-family: 'Gotham Pro Regular', serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+
+  line-height: 16px;
+
+  color: #D9D9D9;
+}
+
+
+.balanceWrapper{
+  display: flex;
+  flex-direction: column;
+}
+.textCenter{
+  position: absolute;
+
+}
+
+
+
+                                                     /* CSS */
+                                                   .button-29 {
+                                                     align-items: center;
+                                                     appearance: none;
+                                                     background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+                                                     border: 0;
+                                                     border-radius: 6px;
+                                                     box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+                                                     box-sizing: border-box;
+                                                     color: #fff;
+                                                     cursor: pointer;
+                                                     display: inline-flex;
+                                                     font-family: "JetBrains Mono",monospace;
+                                                     height: 48px;
+                                                     justify-content: center;
+                                                     line-height: 1;
+                                                     list-style: none;
+                                                     overflow: hidden;
+                                                     padding-left: 16px;
+                                                     padding-right: 16px;
+                                                     position: relative;
+                                                     text-align: left;
+                                                     text-decoration: none;
+                                                     transition: box-shadow .15s,transform .15s;
+                                                     user-select: none;
+                                                     -webkit-user-select: none;
+                                                     touch-action: manipulation;
+                                                     white-space: nowrap;
+                                                     will-change: box-shadow,transform;
+                                                     font-size: 18px;
+                                                   }
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.btnDpWt{
+  width: 100%;
+  justify-content: center;
+}
+
