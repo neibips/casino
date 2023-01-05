@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.427ff345.chunk.css",
+    "main.js": "/static/js/main.1c0a425f.chunk.js",
+    "main.js.map": "/static/js/main.1c0a425f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a7f3b0a6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a7f3b0a6.js.map",
+    "static/css/2.27179453.chunk.css": "/static/css/2.27179453.chunk.css",
+    "static/js/2.a5ea8a0f.chunk.js": "/static/js/2.a5ea8a0f.chunk.js",
+    "static/js/2.a5ea8a0f.chunk.js.map": "/static/js/2.a5ea8a0f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.27179453.chunk.css.map": "/static/css/2.27179453.chunk.css.map",
+    "static/css/main.427ff345.chunk.css.map": "/static/css/main.427ff345.chunk.css.map",
+    "static/js/2.a5ea8a0f.chunk.js.LICENSE.txt": "/static/js/2.a5ea8a0f.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/static/media/tick.1c78fc65.svg",
+    "static/media/coin1.8bd8be40.gif": "/static/media/coin1.8bd8be40.gif",
+    "static/media/cross.e3309d08.svg": "/static/media/cross.e3309d08.svg",
+    "static/media/d.b2fc6d9f.svg": "/static/media/d.b2fc6d9f.svg",
+    "static/media/m.3881955c.svg": "/static/media/m.3881955c.svg",
+    "static/media/nft.516df91c.svg": "/static/media/nft.516df91c.svg",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/solana.64b7d544.png": "/static/media/solana.64b7d544.png",
+    "static/media/t.60f28096.svg": "/static/media/t.60f28096.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7f3b0a6.js",
+    "static/css/2.27179453.chunk.css",
+    "static/js/2.a5ea8a0f.chunk.js",
+    "static/css/main.427ff345.chunk.css",
+    "static/js/main.1c0a425f.chunk.js"
+  ]
+}
