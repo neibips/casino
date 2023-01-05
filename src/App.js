@@ -63,7 +63,7 @@ function App() {
                     <BalanceProvider>
                     <Routes>
                         <Route exact path="/" element={<Crash />} />
-                        {/*<Route exact path="/flip" element={<Home />} />*/}
+                        <Route exact path="/flip" element={<Home />} />
                         {/*<Route exact path="/users" element={<Users />} />*/}
                         {/*<Route exact path="/crash" element={<Crash />} />*/}
                         <Route exact path="/soon" element={<ComingSoon />} />
